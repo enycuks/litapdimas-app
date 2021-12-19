@@ -17,7 +17,11 @@ use App\Http\Controllers\ControllerPeneliti;
 */
 
 Route::get('/', function () {
-    // return view('peneliti.add_proposal');
+    return view('welcome');
 });
 
 Route::get('/klaster', 'App\Http\Controllers\ControllerPeneliti@api');
+
+Route::get('/proposal-2', 'App\Http\Controllers\ControllerPeneliti@proposal2');
+
+Route::get('/proposal-3', 'App\Http\Controllers\ControllerPeneliti@proposal3');
