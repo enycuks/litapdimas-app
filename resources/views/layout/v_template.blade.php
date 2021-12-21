@@ -505,9 +505,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> © Minible.
+                           
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
@@ -555,7 +553,7 @@
     
 
     <!-- App js -->
-    <script src={{ asset('template') }}/"assets/js/app.js"></script>
+    <script src="{{ asset('template') }}/assets/js/app.js"></script>
 
 </body>
 
